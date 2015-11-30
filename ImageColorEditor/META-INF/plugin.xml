@@ -1,0 +1,58 @@
+<idea-plugin version="3">
+  <id>com.yourcompany.unique.plugin.id</id>
+  <name>Image Color Editor</name>
+  <version>1.1</version>
+  <vendor email="support@yourcompany.com" url="http://www.fissionlabs.com">FissionLabs</vendor>
+
+  <description><![CDATA[
+      Using this you can change selected image color to any color.<br>
+      1. Add or Drag image to image area.<br>
+      2. And then click anywhere on image to get that color of the pixel.<br>
+      3. Now enter color you want to replace with.<br>
+      4. Or you can set color using color chooser also.<br>
+      5. Repeat steps 2,3,4 until you get the image in required colors.<br><br>
+      <b>NOTE:</b>
+      <br>
+      Some times some pixles are in still old color, this will make your image dirty.<br>
+      So observe carefully before save your image.<br>
+      Click on those pixels and apply color changes.<br>
+
+
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="131"/>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+      <action class="com.editor.Home" id="ImageColorEditor"
+              text = "Image Icon Color Editor">
+          <add-to-group group-id="NewGroup" anchor="last"/>
+      </action>
+  </actions>
+
+</idea-plugin>
