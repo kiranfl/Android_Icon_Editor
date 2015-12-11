@@ -21,6 +21,16 @@ On Linux or Windows:
 
 3. Restart IntelliJ/Android Studio to activate plugin.
 
+##Install IntelliJ Plugin Repositories
+
+On MAC:
+
+Go `Preference > Plugins > Browse repositories`, then search `Android Icon Editor`.
+
+On Linux or Windows:
+
+Go `File > Settings... > Plugins > Browse repositories`, then search `Android Icon Editor`.
+
 ##License:
 
 (https://raw.githubusercontent.com/kiranfl/Android_Icon_Editor/master/LICENSE)
