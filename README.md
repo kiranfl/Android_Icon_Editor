@@ -33,4 +33,4 @@ Go `File > Settings... > Plugins > Browse repositories`, then search `Android Ic
 
 ##License:
 
-(https://raw.githubusercontent.com/kiranfl/Android_Icon_Editor/master/LICENSE)
+https://raw.githubusercontent.com/kiranfl/Android_Icon_Editor/master/LICENSE
